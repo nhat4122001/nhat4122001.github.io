@@ -141,6 +141,11 @@ html {
   }
 }
 
+/* Horizontal scrolling for projects */
+.overflow-x-auto {
+  overflow-x: auto;
+  white-space: nowrap;
+}
 
 </style>
 
@@ -161,7 +166,7 @@ html {
 <section id="projects" class="projects-section bg-light" id="projects">
   <div class="container">
     <h2 class="text-center">Projects</h2>
-    <div class="row">
+    <div class="row flex-nowrap overflow-x-auto">
       <!-- Project 1 -->
       <div class="col-md-4 mb-4">
         <div class="card">
@@ -198,20 +203,8 @@ html {
           </div>
         </div>
       </div>
+      <!-- Add more projects here -->
     </div>
-    <!-- Project 4 -->
-    <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title">Project 4</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
-            <a href="#" class="btn btn-secondary">Source Code</a>
-          </div>
-        </div>
-      </div>
-
   </div>
 </section>
 
@@ -223,47 +216,19 @@ html {
     <div class="row">
       <!-- Skill 1 -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/1.png" class="card-img-top" alt="Python">
-          <div class="card-body">
-            <h5 class="card-title">Python</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
-          </div>
-        </div>
+        <!-- Card content -->
       </div>
       <!-- Skill 2 -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/2.png" class="card-img-top" alt="Data Visualization">
-          <div class="card-body">
-            <h5 class="card-title">Data Visualization</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
-          </div>
-        </div>
+        <!-- Card content -->
       </div>
       <!-- Skill 3 -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/3.png" class="card-img-top" alt="SQL">
-          <div class="card-body">
-            <h5 class="card-title">SQL</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
-          </div>
-        </div>
+        <!-- Card content -->
       </div>
       <!-- Skill 4 -->
       <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img src="images/skills/4.png" class="card-img-top" alt="Data Storytelling">
-          <div class="card-body">
-            <h5 class="card-title">Data Storytelling</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-outline-primary">Link to course or bootcamp</a>
-          </div>
-        </div>
+        <!-- Card content -->
       </div>
     </div>
   </div>
@@ -358,5 +323,3 @@ html {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
